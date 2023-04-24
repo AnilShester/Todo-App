@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="task__container">
+          <button class="tasks__create-task">Add new task +</button>
+          <div class="tasks__list"></div>
+          <div class="tasks__actions">
+            <p>you have <span id="list__count"></span> task</p>
+            <button class="task__clear">clear task</button>
+          </div>
+        </div>
+
+        <div class="add__task hidden">
+          <h3>Add new task</h3>
+          <form action="" class="add__task__form">
+            <input type="text" class="new__task__title" />
+            <input type="date" name="new__task__date" class="new__task__date" />
+            <select name="status" class="new__task__status">
+              <option value="not-started">Not started</option>
+              <option value="in-progress">In progress</option>
+              <option value="done">Done</option>
+            </select>
+            <div class="add__task__actions">
+              <button type="submit" class="add__task__add">submit</button>
+              <button type="button" class="add__task__cancel">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

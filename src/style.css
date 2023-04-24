@@ -1,0 +1,107 @@
+main {
+  width: 40vw;
+  padding: 2em;
+  border: 1px solid blue;
+  border-radius: 1em;
+  background-color: white;
+}
+main section .task__container {
+  display: flex;
+  flex-direction: column;
+}
+main section .hidden {
+  display: none;
+}
+main section .show {
+  display: contents;
+}
+main .tasks__create-task {
+  padding: 1em;
+  background-color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+main .tasks__list {
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .task__section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  border: 1px solid blue;
+}
+main .tasks__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .tasks__actions p {
+  font-size: 1.5em;
+}
+main .tasks__actions button {
+  padding: 1em 2em;
+  font-size: 1em;
+  text-transform: capitalize;
+  background-color: white;
+  cursor: pointer;
+}
+
+.add__task {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+.add__task h3 {
+  font-size: 2em;
+  margin: 0.4em 0;
+}
+.add__task form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.add__task form input {
+  padding: 0.5em 1em;
+  font-size: 1em;
+}
+.add__task form select {
+  padding: 0.5em 1em;
+  font-size: 1em;
+}
+.add__task form button {
+  padding: 1em 1.4em;
+  font-size: 1em;
+  text-transform: capitalize;
+  width: fit-content;
+  align-self: flex-end;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255, 195, 195);
+  background: linear-gradient(90deg, rgb(255, 195, 195) 0%, rgba(179, 98, 226, 0.9865196078) 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: contents;
+}
+
+/*# sourceMappingURL=style.css.map */
